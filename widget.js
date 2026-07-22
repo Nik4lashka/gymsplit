@@ -116,23 +116,12 @@ let widget = new ListWidget();
 widget.backgroundColor = new Color("#111111");
 
 
-let title = widget.addText("Heute");
-title.font = Font.boldSystemFont(14);
-
-
-widget.addSpacer(8);
-
-
 let training = widget.addText(currentSplit);
-
 training.font = Font.boldSystemFont(28);
+training.centerAlignText();
 
-
-widget.addSpacer();
-
-
-let dateText = widget.addText(today);
-dateText.font = Font.systemFont(12);
+let url = "scriptable:///run/" + encodeURIComponent("menu");
+widget.url = url;
 
 
 Script.setWidget(widget);
