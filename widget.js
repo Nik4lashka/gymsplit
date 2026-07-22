@@ -120,9 +120,6 @@ let training = widget.addText(currentSplit);
 training.font = Font.boldSystemFont(28);
 training.centerAlignText();
 
-let url = "scriptable:///run/" + encodeURIComponent("menu");
-widget.url = url;
-
 
 Script.setWidget(widget);
 
