@@ -2,10 +2,12 @@
 
 let fm = FileManager.iCloud();
 
-let path = fm.joinPath(fm.documentsDirectory(), "split.json");
+let path = fm.joinPath(fm.documentsDirectory(), "split.json.txt");
 
-let jsonText = fm.readString(path);
+let rawText = fm.readString(path);
 
-let data = JSON.parse(jsonText);
+let trainings = JSON.parse(rawText);
 
-console.log(data);
+let trainingDays = Object.keys(trainings);
+
+console.log(trainings);
