@@ -6,12 +6,12 @@ let fm = FileManager.iCloud();
 
 let splitPath = fm.joinPath(
   fm.documentsDirectory(),
-  "split.json"
+  "split.json.txt"
 );
 
 let settingsPath = fm.joinPath(
   fm.documentsDirectory(),
-  "splitSettings.json"
+  "memory.json.txt"
 );
 
 
