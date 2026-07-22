@@ -1,0 +1,69 @@
+{
+    "Upper A": [
+        "Bankdrücken (Langhantel)",
+        "Rudern (Maschine)",
+        "Flys (Maschine)",
+        "Latzug",
+        "Schulterdrücken",
+        "Seitheben (Kabel)",
+        "Trizeps (Kabel|Einarmig)",
+        "Preacher Curls",
+        "Hammer Curls"
+    ],
+    
+    "Lower A": [
+        "Beinstrecker",
+        "Beinbeuger (Liegend)",
+        "Beinpresse",
+        "Adduktoren",
+        "Hip Thrusts",
+        "Waden",
+        "Bauch"
+    ],
+
+    "Pause": [
+        "resting cardio"
+    ],
+
+    "Upper B": [
+        "Schrägbank (Smith)",
+        "Flys (Maschine)",
+        "Latzug",
+        "Rudern (Maschine)",
+        "Seitheben",
+        "Reverse Flys",
+        "Trizeps (Kabel|Einarmig)",
+        "Preacher Curls"
+    ],
+
+    "Lower B": [
+        "Beinbeuger (Liegend)",
+        "Beinstrecker",
+        "Split Squats",
+        "Adduktoren",
+        "Waden",
+        "Hip Thrusts",
+        "Bauch"
+    ],
+
+    "Upper C": [
+        "Brustpresse",
+        "Enges Rudern",
+        "Latzug",
+        "Reverse Flys",
+        "Seitheben",
+        "Preacher Curls",
+        "Hammer Curls",
+        "Trizepsdrücken"
+    ],
+
+    "Lower C": [
+        "Waden",
+        "Beinbeuger (Liegend)",
+        "Beinstrecker",
+        "Abduktoren",
+        "Adduktoren",
+        "Bauch",
+        "Beinpresse"
+    ]
+}
